@@ -26,6 +26,11 @@ export const config: Config = {
           dest: 'assets',
           warn: true,
         },
+        {
+          src: 'global/fonts/*.ttf',
+          dest: 'fonts',
+          warn: true,
+        },
       ],
     },
     {
@@ -34,6 +39,11 @@ export const config: Config = {
         {
           src: '**/*.{jpg,png}',
           dest: 'dist/didroom-components/assets',
+          warn: true,
+        },
+        {
+          src: 'global/fonts/*.ttf',
+          dest: 'dist/didroom-components/fonts',
           warn: true,
         },
       ],
@@ -53,6 +63,11 @@ export const config: Config = {
         {
           src: '**/*.woff2',
           dest: 'assets',
+          warn: true,
+        },
+        {
+          src: 'global/fonts/*.ttf',
+          dest: 'fonts',
           warn: true,
         },
       ],
